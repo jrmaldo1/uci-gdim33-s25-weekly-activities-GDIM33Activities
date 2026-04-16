@@ -22,5 +22,7 @@
 3. The Set Cursor Lock state is relevant to my vertical slice as I am both making a 3D game, and I would like my player to be able to look around the scene when playing, however I would want there to be a lock state when they are on the menu screen.
 4.The concept of a "game state" is incredibly relevant to my vertical slice as I will have multiple distinct game states in both my character and my boss objects state machines, from movement to fighting animations, and effects on health.
 
+
+
 ## Open Source Assets:
 

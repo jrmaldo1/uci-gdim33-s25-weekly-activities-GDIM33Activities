@@ -20,7 +20,7 @@
 1. It is advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable("clickNpcEventName") as it allows you to label the action that the transition is achieving.
 2. Using a Debug.Log() allowed me to not only learn how to properly hook up the debug node, but allowed me to figure out that I had forgotten to connect my nodes to the mouse down event as the debug log was not showing up. Once it began showing up when I clicked on the walrus, I knew my nodes were working properly.
 3. The Set Cursor Lock state is relevant to my vertical slice as I am both making a 3D game, and I would like my player to be able to look around the scene when playing, however I would want there to be a lock state when they are on the menu screen.
-4. he concept of a "game state" is incredibly relevant to my vertical slice as I will have multiple distinct game states in both my character and my boss objects state machines, from movement to fighting animations, and effects on health.
+4. The concept of a "game state" is incredibly relevant to my vertical slice as I will have multiple distinct game states in both my character and my boss objects state machines, from movement to fighting animations, and effects on health.
 
 
 

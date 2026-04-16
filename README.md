@@ -15,3 +15,6 @@
 Write your W2 Devlog here.
 
 Continue adding additional headers below this one for future weeks and future activities.
+
+## Open Source Assets:
+

@@ -32,8 +32,8 @@ Names of playtest team: Jacob, Zoya, Andy, Noah, Zom
 3. I found that players liked the environment, and discovered that they could double jump into infinity, which occurred because I did not add an "if grounded" requirement to my jump code. The controls were intuitive to players.
 
 ### Activity 2
-1. I believe a writer may not be able to add more dialogue to this setup without writing any code, as we ourselves had to write code to get the dialogue to work.
-2. meow
+1. I believe a writer may be able to add more dialogue without writing any code with this setup, however, after a certain point the graph may become very large.
+2. I don't believe there is a definitive limit to how many nodes a writer could create, though there may reach a point when the graph becomes rather complicated.
 3. The regenerate nodes buttons allows you to update your nodes to include new scripts you have written or nodes you have added in the project settings.
 ## Open Source Assets:
 

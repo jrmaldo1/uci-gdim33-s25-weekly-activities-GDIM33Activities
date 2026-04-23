@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: DialogueLineW4
   m_EditorClassIdentifier: 
   Line: Hewwo World :333
-  ReplyOptions: []
+  ReplyOptions:
+  - line: Hai
+    nextNode: {fileID: 0}
+  - line: Baiii 3;
+    nextNode: {fileID: 0}

@@ -22,6 +22,16 @@
 3. The Set Cursor Lock state is relevant to my vertical slice as I am both making a 3D game, and I would like my player to be able to look around the scene when playing, however I would want there to be a lock state when they are on the menu screen.
 4. The concept of a "game state" is incredibly relevant to my vertical slice as I will have multiple distinct game states in both my character and my boss objects state machines, from movement to fighting animations, and effects on health.
 
+## W4
+### Activity 1
+1. My playable build right now has my player model (A poptart cat) and platforms for the player to jump on. The player can move and jump onto platforms.
+2. My playtesting goals are to find bugs, and observe how players feel about the environment, and whether or not the grass blocks are out of place in space.
+
+Names of playtest team: Jacob, Zoya, Andy, Noah, Zom
+
+3. I found that players liked the environment, and discovered that they could double jump into infinity, which occurred because I did not add an "if grounded" requirement to my jump code. The controls were intuitive to players.
+
+### Activity 2
 
 
 ## Open Source Assets:

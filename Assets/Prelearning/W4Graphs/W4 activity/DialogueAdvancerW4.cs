@@ -1,13 +1,22 @@
 using UnityEngine;
 using Unity.VisualScripting;
+using Unity.IO.LowLevel.Unsafe;
+
+
 
 namespace W4Activity
 {
     public class DialogueAdvancerW4 : MonoBehaviour
     {
+        private void Start()
+        {
+            NewDialogueEventW4
+        }
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
         public static DialogueAdvancerW4 _Instance {get; private set;}
+        [SerializeField] public DialogueNodeW4 dialogueNode;
+
 
         // More Singleton stuff
         // do not edit this method

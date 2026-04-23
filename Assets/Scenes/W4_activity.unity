@@ -546,7 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 0.8
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb1e5b7a55be434fb3cef9588182ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDialogue: {fileID: 11400000, guid: 811db0b0053d54ec29f09ff4fb97912f, type: 2}
+  dialogueNode: {fileID: 11400000, guid: 6c97a25e8604baa45b8bd5634a9c9509, type: 2}
 --- !u!1 &321970410
 GameObject:
   m_ObjectHideFlags: 0

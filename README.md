@@ -35,5 +35,18 @@ Names of playtest team: Jacob, Zoya, Andy, Noah, Zom
 1. I believe a writer may be able to add more dialogue without writing any code with this setup, however, after a certain point the graph may become very large.
 2. I don't believe there is a definitive limit to how many nodes a writer could create, though there may reach a point when the graph becomes rather complicated.
 3. The regenerate nodes buttons allows you to update your nodes to include new scripts you have written or nodes you have added in the project settings.
+
+## W5
+### Activity 1
+1. Create an Idle and Walking animation for my player model in Blender.
+2. Export each animation as an FBX file.
+3. Import each animation FBX into Unity.
+4. Attach the Idle and Walking animations to my player model through the animator and animator controller.
+ - Drag and drop each animation into the animator controller.
+ - Connect the Entry node in the animator controller to the Idle animation, and then to the Walking animation.
+5. Adjust the constraints of each transition until the Walking and Idle animation work properly!
+
+### Activity 2
+Today in class, I was able to fix my initial issue of being unable to set up animations for my player, I learned that I had to make my own animations in Blender to ensure that they were compatible with my rig. After I made each animation in Blender I exported them into Unity, and was able to drag them into the animator controller. From there I was able to get the animations to fire, and now have player animations. The only thing I have left to do is to fix when they fire!
 ## Open Source Assets:
 

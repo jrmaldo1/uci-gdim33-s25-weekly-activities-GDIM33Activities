@@ -58,7 +58,10 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 3. Playtest Notes: The first player liked environment, did not need guidance, and wanted dialogue/story, or perhaps a beacon to go towards as a guide. Player difficulty felt just right, especially with the current inverted controls. The second player hoped to see a high score UI in the future, and found the controls to be a bit too difficult. She thought the environment was really pretty.
 
 ### Activity 2
-
+1. The multiply setting of the blend makes the resulting color less saturated because multiplying their values causes the hue to increase, becoming darker.
+2. If we use Multiply to combine Alpha values, the resulting value be less translucent than either of the original values as the alpha value will be multiplied, and thus increased.
+3. The shader gets the UV values from the mesh's UV map.
+4. Manipulating colors with math seems super interesting to me, especially now since I have an idea of how to do it, and the fact it works similarly to Blender's texture nodes!
 
 ## Open Source Assets:
 

@@ -48,5 +48,17 @@ Names of playtest team: Jacob, Zoya, Andy, Noah, Zom
 
 ### Activity 2
 Today in class, I was able to fix my initial issue of being unable to set up animations for my player, I learned that I had to make my own animations in Blender to ensure that they were compatible with my rig. After I made each animation in Blender I exported them into Unity, and was able to drag them into the animator controller. From there I was able to get the animations to fire, and now have player animations. The only thing I have left to do is to fix when they fire!
+
+## W6
+
+### Activity 1
+[Itch Link](https://julianamaldonado.itch.io/playtest-2)
+1. For my playtesting goal, I would like to discover any new bugs, alongside figuring out how platform difficulty feels to players. I would like to know if the platforms feel too easy, to far, or too close together.
+2. Since milestone 1, I have addedmore objects with rendered features (distant glowing planets), fixed the double jump, and created and imported animations, added a state machine for animations (which is still a work-in-progress), and made lighting changes to the game.
+3. Playtest Notes: The first player liked environment, did not need guidance, and wanted dialogue/story, or perhaps a beacon to go towards as a guide. Player difficulty felt just right, especially with the current inverted controls. The second player hoped to see a high score UI in the future, and found the controls to be a bit too difficult. She thought the environment was really pretty.
+
+### Activity 2
+
+
 ## Open Source Assets:
 

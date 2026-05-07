@@ -59,7 +59,7 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 
 ### Activity 2
 1. The multiply setting of the blend makes the resulting color less saturated because multiplying their values causes the hue to increase, becoming darker.
-2. If we use Multiply to combine Alpha values, the resulting value be less translucent than either of the original values as the alpha value will be multiplied, and thus increased.
+2. If we use Multiply to combine Alpha values, the resulting value be less translucent than either of the original values if one of them is smaller, and more translucent if one of the values is larger, as the alpha value will be multiplied, and thus increased or decreased accordingly.
 3. The shader gets the UV values from the mesh's UV map.
 4. Manipulating colors with math seems super interesting to me, especially now since I have an idea of how to do it, and the fact it works similarly to Blender's texture nodes!
 

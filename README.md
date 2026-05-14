@@ -63,5 +63,17 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 3. The shader gets the UV values from the mesh's UV map.
 4. Manipulating colors with math seems super interesting to me, especially now since I have an idea of how to do it, and the fact it works similarly to Blender's texture nodes!
 
+
+## W7
+
+### Devlog Questions 1-7
+1. The data for the Vertex Color node's data comes from the mesh.
+2.The color on our shiba from step (2) is blended at the edges of different regions of color because the color node can only approximate the space in between polygon vertices, unlike a texture map which has information for each specific vertex.
+3. The shiba from step (3) is less detailed than the shiba we rendered with a texture in last week's activity because, unlike the texture, the vertex color can only approximate where color can exist within polygons, and between vertices. Vertex color may be useful for shading objects as either a solid color, or as a tint which doesn't cause the color to warp the texture map's data. 
+4. Based on the color of the shiba in step (3),  the mesh's vertex normals appear to not have anything wrong with them.
+5. Another piece of vertex data I can imagine testing with a debug shader like this may be camera direction, and I believe this may be useful as cameras often point towards players (if the game is third person) or towards the direction of objects away from players, and I feel applying this debug to either the player or other objects may help with positioning them.
+6. There is an error in the lighting in step (4) on the back of the shiba because the vector of the light direction is pointing towards the shiba, but the shiba's normal vectors are pointing away from itself.
+7. We set the Blend Mode to Additive for the fire effect in step (5) as it allows the brighter areas of the texture to become more opaque and darker areas more transparent through the nodes nature of the additive mode which adds to the value of the bright areas of the texture.
+
 ## Open Source Assets:
 

@@ -75,5 +75,17 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 6. There is an error in the lighting in step (4) on the back of the shiba because the vector of the light direction is pointing towards the shiba, but the shiba's normal vectors are pointing away from itself.
 7. We set the Blend Mode to Additive for the fire effect in step (5) as it allows the brighter areas of the texture to become more opaque and darker areas more transparent through the nodes nature of the additive mode which adds to the value of the bright areas of the texture.
 
+## W8
+
+### Playtest Devlog:
+- Since my Milestone 2 Submission, I have made tweaks to the aspect ratio of my UI, which would scale weirdly on Itch.io, especially when full-screened, but looked fine in Unity. I also changed how one of my respawn beacons worked as one of the beacons previously would not trigger a change in respawn location.
+- [Playtest Link:](https://julianamaldonado.itch.io/playtest-4)
+- My playtesting goals for this playtest are to test how the players feel about the new respawn beacon that directs players, and serves as a checkpoint, alongside their interaction with TacNayn. I'm curious as to how players will react to having their respawn point changed, and how they will feel about the glowy effects of the beacon, alongside the changed UI.
+
+### Playtest Notes
+- One playtester thought the game was really cute!
+- They thought it was a bit difficult to tell which direction to go after respawning, and requested adding an arrow pointing towards the direction that you should go.
+- Other playtester wanted to be able to look down, alongside an effect for the star to indicate bounce, and liked the boss.
+
 ## Open Source Assets:
 

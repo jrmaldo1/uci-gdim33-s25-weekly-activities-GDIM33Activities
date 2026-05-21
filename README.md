@@ -87,5 +87,11 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 - They thought it was a bit difficult to tell which direction to go after respawning, and requested adding an arrow pointing towards the direction that you should go.
 - Other playtester wanted to be able to look down, alongside an effect for the star to indicate bounce, and liked the boss.
 
+### Activity 2C Devlog
+1. The name of the pass associated with the post-processing effect we created is FullScreenPassRendererFeature, as it holds the name of the feature we added to Post Effect.
+2. If you set the Lerp value to 0.5, the cobblestone screen effect slightly appears, but is mostly transparent. If it is at 0, it does not appear at all. If it is set to 1, it becomes relatively opaque, covering the entire screen.
+3. The screen looks like this based on the different Lerp values as the node is returning the in-between of the texture, and camera's values, when we adjust the value, we determine which of the two is more visible on the screen, thus when the Lerp is increased, the texture becomes less transparent.
+4. Our algorithm for the Lerp amount uses (sin(time)+1)/2 as opposed to sin(time) as sine(time) causes the cobblestone effect to become too bright or too dark at certain points, rather than just pulsing. Our adjusted algorithm allows us to change the constraints of the sin(time) to only operate within a specific range of values, so that we can keep the effect from becoming too bright or too dark.
+
 ## Open Source Assets:
 

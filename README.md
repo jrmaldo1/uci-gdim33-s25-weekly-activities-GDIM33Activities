@@ -93,5 +93,21 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 3. The screen looks like this based on the different Lerp values as the node is returning the in-between of the texture, and camera's values, when we adjust the value, we determine which of the two is more visible on the screen, thus when the Lerp is increased, the texture becomes less transparent.
 4. Our algorithm for the Lerp amount uses (sin(time)+1)/2 as opposed to sin(time) as sine(time) causes the cobblestone effect to become too bright or too dark at certain points, rather than just pulsing. Our adjusted algorithm allows us to change the constraints of the sin(time) to only operate within a specific range of values, so that we can keep the effect from becoming too bright or too dark.
 
+
+## W9
+
+### Activity 1
+ 
+ Step 1: For our game we chose Pyre.
+
+ Step 2: In Pyre, clicking through dialogue causes a dissolve effect on the dialogue box. Another effect occurs when the player clicks on an area, and the camera zooms out, and the sides of the screen blur, creating a motin blur transition. We guessed that we would add a temporary effect to the box shader, that would cause a visual dissolve effect for the first effect. The second, appeared a bit more complicated, but we brainstormed that it may involve duplicating and overlaying the image in-game.
+
+
+
+### Activity 2
+
+Here is a [screenshot](https://docs.google.com/drawings/d/1idZTnvb9LUVKyoBJ-H3Vxe9bCRG1FzFOFVPK3Ro9TsE/edit?usp=sharing) of my shader graph that I'm working on. I wanted to create a screen overlay to trigger when the player equips a power-up, today I managed to complete that overlay. I initially tried to search for tutorials on how to setup an overlay but found I could not find the volume object needed for them to apply to the renderer. So, decided to go back to the Week 8 and modify the graph we made for the cobblestone effect in-class, and decided to use it for a sparkle effect at the edges of the screen. I found that the overlay was initially too faint so I decided to up the add node to 4 (in the screenshot I upped it to 2, but ended up increasing it after). This change increased the opacity of the texture so that it would appear more on screen.
+
+
 ## Open Source Assets:
 

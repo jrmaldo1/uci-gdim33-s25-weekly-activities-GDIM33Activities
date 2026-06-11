@@ -108,6 +108,24 @@ Today in class, I was able to fix my initial issue of being unable to set up ani
 
 Here is a [screenshot](https://docs.google.com/drawings/d/1idZTnvb9LUVKyoBJ-H3Vxe9bCRG1FzFOFVPK3Ro9TsE/edit?usp=sharing) of my shader graph that I'm working on. I wanted to create a screen overlay to trigger when the player equips a power-up, today I managed to complete that overlay. I initially tried to search for tutorials on how to setup an overlay but found I could not find the volume object needed for them to apply to the renderer. So, decided to go back to the Week 8 and modify the graph we made for the cobblestone effect in-class, and decided to use it for a sparkle effect at the edges of the screen. I found that the overlay was initially too faint so I decided to up the add node to 4 (in the screenshot I upped it to 2, but ended up increasing it after). This change increased the opacity of the texture so that it would appear more on screen.
 
+## W10
+
+### Activity 1
+- Since Milestone 2, I added a nav-mesh and player-follow feature for the boss, so that once the player reaches the last level, the boss begins approaching the player, indicating that the battle has begun.
+- [Itch Page!](https://julianamaldonado.itch.io/playtest-5)
+- My playtesting goals are to find how players feel about the new battle area, UI indicators, and the boss approaching the player, and whether or not they can intuitively tell that they are battling him, and understand what controls can be used to defeat him.
+Playtest Notes:
+- Playtester 1 was initially confused by the game's flipped controls and felt it made the game more difficult. They suggested that to defeat the boss, it should be more difficult, such as jumping onto him multiple times, rather than just once. They suggested the score UI should be rescaled.
+- Playetster 2 enjoyed how high the player bounces, and similar to playtester 1, seemed to have more difficulty with the third level. They felt that the game worked similarly to the Run coolmathgames (my inspiration!).
+- Playtester 3 was also initially confused by the inverted controls. They also felt that the score UI was not immediately clear to be a score UI (perhaps I should add a "score:" text to the beginning of the number). They went the opposite direction on accident but found their way back (perhaps I should add an invisible barrier to prevent players from going backwards on accident).
+
+### Activity 2
+We decided you should plan out all your game systems ahead of time before starting, and should diagram it so that you may begin managing scope, and can see when your ideas are becoming too confusing or large. We also discussed allocating extra time for oneself to complete tasks for the game, so that there is space for error, so deadlines are not missed. Essentially, the specificity in how you plan, reveals your scope, and allows you to better allocate your time if you break down your plan properly.
+
+### Activity 3
+I altered my score UI to be more clear, and polished the rest of my UI assets so they would be properly scaled to the screen. I additionally added barriers at the beginning of each level to prevent players from going backwards on accident. I additionally finally fixed my flipped movement inputs!
+
+
 
 ## Open Source Assets:
 
